@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4F1F0D1A08C2310043F2A9 /* friendPerArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A4F1F0C1A08C2310043F2A9 /* friendPerArea.plist */; };
 		1AE7C2541A08B77A00563FD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7C2531A08B77A00563FD8 /* main.m */; };
 		1AE7C2571A08B77A00563FD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7C2561A08B77A00563FD8 /* AppDelegate.m */; };
 		1AE7C25A1A08B77A00563FD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7C2591A08B77A00563FD8 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4F1F0C1A08C2310043F2A9 /* friendPerArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = friendPerArea.plist; path = SamplePListTests/friendPerArea.plist; sourceTree = SOURCE_ROOT; };
 		1AE7C24E1A08B77A00563FD8 /* SamplePList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE7C2521A08B77A00563FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE7C2531A08B77A00563FD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,7 +40,6 @@
 		1AE7C25E1A08B77A00563FD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AE7C2611A08B77A00563FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1AE7C2671A08B77A00563FD8 /* SamplePListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AE7C26C1A08B77A00563FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE7C26D1A08B77A00563FD8 /* SamplePListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePListTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +99,7 @@
 			children = (
 				1AE7C2521A08B77A00563FD8 /* Info.plist */,
 				1AE7C2531A08B77A00563FD8 /* main.m */,
+				1A4F1F0C1A08C2310043F2A9 /* friendPerArea.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,17 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1AE7C26D1A08B77A00563FD8 /* SamplePListTests.m */,
-				1AE7C26B1A08B77A00563FD8 /* Supporting Files */,
 			);
 			path = SamplePListTests;
-			sourceTree = "<group>";
-		};
-		1AE7C26B1A08B77A00563FD8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1AE7C26C1A08B77A00563FD8 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4F1F0D1A08C2310043F2A9 /* friendPerArea.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +406,7 @@
 				1AE7C2731A08B77A00563FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AE7C2741A08B77A00563FD8 /* Build configuration list for PBXNativeTarget "SamplePListTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +415,7 @@
 				1AE7C2761A08B77A00563FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
